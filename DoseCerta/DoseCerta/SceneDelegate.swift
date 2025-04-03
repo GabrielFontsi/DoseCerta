@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         // Instancia o ViewController principal.
-        let vc = ViewController()
+        let vc = LoginViewController()
         
         // Cria um UINavigationController com o ViewController como tela raiz.
         let navVC = UINavigationController(rootViewController: vc)
